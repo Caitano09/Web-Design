@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/telaAgendamento.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            <a class="linkUsuario" href="./telaInicial.html">Nome do Site</a>
+        </h1>
+        <form action="" method="post">
+            <h3 class="nomeUsuario"> 
+                <a class="linkUsuario" href="./telaPaciente.html">Usuário</a>
+            </h3>
+            <input class="input" type="text" name="pesquisar" id="pesquisar" placeholder="pesquisar"><input class="input buttonEntrar" type="button" value="Buscar">
+        </form>
+    </header>
+    <div class="cadastro">
+        <form action="" method="post">
+            <h2>USF URBIS IV</h2>
+
+            <label for="medEspec"><b>Médico | Especialidade: </b></label>
+            <select class="input inputNome" name="medEspec" id="medEspec">
+                <option value="masculino">João | Dentista</option>
+                <option value="feminino">Maria | Clinico Geral</option>
+            </select><br>
+
+            <div class="inputCol2">
+                <span>
+                <label for="dia"><b>Dia: </b></label>
+                <select class="input" name="dia" id="dia">
+                    <option value="segunda">Segunda-Feira</option>
+                    <option value="quarta">Terça-Feira</option>
+                </select>
+            </span>
+            <span>
+                <label for="hora"><b>Hora: </b></label>
+                <select class="input" name="hora" id="hora">
+                    <option value="13">13:00</option>
+                    <option value="14">14:00</option>
+                </select>
+            </span>
+            <input class="input submit" type="submit" value="Agendar">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

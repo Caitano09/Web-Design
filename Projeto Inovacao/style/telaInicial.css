@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.input{
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input:focus{
+    outline-width: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #60AD76;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.linkUsuario{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+.nomeUsuario{
+    text-align: right;
+    margin: 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.usf{
+    display: block;
+    width: 330px;
+    height: 200px;
+    border: 1px solid #606060; 
+    border-radius: 10px;
+}
+
+.nomeUsf{
+    text-align: center;
+    margin: 0;
+    border-radius: 9px;
+    border-bottom: 2px solid #1f1d1d; 
+    background-color: #60AD76;
+    padding: 10px 0;
+}
+
+.listaEspecialidade{
+    background-color: #60AD76;
+    border-radius: 10px;
+    height: 130px;
+    margin: 10px 20px;
+    overflow-y: auto;
+    box-sizing: content-box;
+    
+}
+
+.listaEspecialidade div:nth-child(odd) {
+    background-color: #89A090;
+    border: 1px solid #1f1d1d; 
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.listaEspecialidade div:nth-child(even) {
+    background-color: #C1DFCA;
+    border: 1px solid #1f1d1d; 
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.linkEspecialidades{
+    color: black;
+    text-decoration: none;
+}
+
+.especiladade{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+

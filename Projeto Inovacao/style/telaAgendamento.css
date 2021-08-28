@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.input{
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input:focus{
+    outline-width: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #60AD76;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.linkUsuario{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+.nomeUsuario{
+    text-align: right;
+    margin: 5px;
+}
+
+.cadastro{
+    display: flex;
+    align-self: center;   
+    background-color: #c4c4c475;
+    width: 70%;
+    height: 60%;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.cadastro form{
+    width: 100%;
+    padding: 30px;
+}
+
+.cadastro h2{
+    text-align: center;
+}
+
+.cadastro form select{
+    display: inline-block;
+    padding: 15px;
+}
+
+.inputNome{
+    width: 90%;
+}
+
+.inputCol2, .inputCol3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.inputCol2 span{
+    width: 300px;
+}
+.inputCol2 select{
+    width: 100%;
+}
+
+.submit{
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #60AD76;
+    border: 1px solid #606060; 
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/telaLogin.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            <a class="linkUsuario" href="./telaInicial.html">Nome do Site</a>
+        </h1>
+        <form action="" method="post">
+            <input class="input" type="email" name="email" id="email" placeholder="Email"><br>
+            <input class="input" type="password" name="senha" id="senha" placeholder="Senha">
+            <input class="input buttonEntrar" type="button" value="Entrar">
+        </form>
+    </header>
+    <div class="cadastro">
+        <form action="" method="post">
+            <h2>Cadastro</h2>
+
+            <label for="nome"><b>Nome: </b></label>
+            <input class="input inputNome" type="text" name="nome" id="nome" placeholder="Nome"><br>
+
+            <div class="inputCol2">
+
+                <label for="cpf"><b>CPF: </b></label>
+                <input class="input" type="text" name="cpf" id="cpf" placeholder="CPF">
+
+
+                <label for="numSus"><b>Nº do Sus: </b></label>
+                <input class="input" type="text" name="numSus" id="numSus" placeholder="Nº do cartão do Sus">
+
+            </div>
+            <div class="inputCol3">
+
+                <label for="dataNasc"><b>Data de Nascimento: </b></label>
+                <input class="input" type="date" name="dataNasc" id="dataNasc" placeholder="Data de Nascimento">
+
+                <label for="sexo"><b>Sexo: </b></label>
+                <select class="input" name="sexo" id="sexo">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+
+                <label for="estadoCivil"><b>Estado Civil: </b></label>
+                <select class="input" name="estadoCivil" id="estadoCivil">
+                    <option value="solteiro">Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="viuvo">Viuvo</option>
+                    <option value="divorciado">Divorciado</option>
+                </select><br>
+
+            </div>
+            <div class="inputCol2">
+                <label for="login"><b>Login: </b></label>
+                <input class="input" type="text" name="login" id="login" placeholder="Login">
+
+                <label for="senha"><b>Senha: </b></label>
+                <input class="input" type="password" name="senha" id="senha" placeholder="Senha">
+
+            </div>
+            <input class="input submit" type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+
+</html>
